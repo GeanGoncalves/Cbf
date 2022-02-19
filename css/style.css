@@ -1,37 +1,91 @@
-/* Estilos Gerais */
-body {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
-/* Header */
-.header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 200px;
-  padding: 2px 0;
+
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2%;
 }
 
-.header_menu {
+html,
+body {
+  height: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+header {
+  height: 200px;
+  padding: 20px 0;
+}
+.logocopa {
+  padding: 20px;
+}
+.logo {
+  width: 50%;
+}
+
+.menu {
+  padding-top: 30px;
+  width: 50%;
   text-align: right;
 }
 
-.header_menu ul li {
-  display: inline-block;
-  margin-left: 20px;
-  margin-top: 25px;
-}
-
-.header_menu ul li a {
-  color: #000;
+.menu a {
+  color: black;
+  text-decoration: none;
   font-weight: bold;
-  letter-spacing: 0.1em;
+  margin-right: 15px;
   font-size: 16px;
-  line-height: 20px;
-  padding: 10px 0;
+  letter-spacing: 0.1em;
 }
 
-.header_menu ul li a:hover {
+.menu a:hover {
   color: #ffd100;
 }
 
-/* Introdução */
+section.sobre {
+  height: calc(100% - 200px);
+  position: relative;
+}
+
+.extras {
+  position: absolute;
+  bottom: -330px;
+  right: -340px;
+  width: 800px;
+  height: 800px;
+  border-radius: 50%;
+  background-color: #ffd100;
+}
+
+.texto-sobre h1 {
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.texto-sobre p {
+  margin: 20px 0;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  max-width: 450px;
+}
+
+.texto-sobre button {
+  border: 0;
+  background-color: #ffd100;
+  color: black;
+  font-size: 19px;
+  font-weight: bold;
+  border-radius: 8px;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}
