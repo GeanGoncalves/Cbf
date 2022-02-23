@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 42px; /* é aqui que muda */
+}
+
+div.center {
+  padding: 15vh 2% 0 2%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/*Navbar*/
+header {
+  height: 200px;
+  padding: 20px 0;
+}
+
+.logo {
+  width: 50%;
+}
+
+.menu {
+  padding-top: 30px;
+  padding-left: 250px;
+  width: 50%;
+  text-align: center;
+  display: flex;
+  gap: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu li {
+  width: 150px;
+  height: 20px;
+  list-style: none;
+}
+
+.menu a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 15px;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  display: flex;
+}
+
+.menu li:hover > a {
+  color: #ffd100;
+}
+
+.menu li:hover > .submenu {
+  display: block;
+}
+
+.submenu {
+  margin-top: 1px;
+  display: none;
+}
+
+.submenu a {
+  width: 150%;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 16px;
+  border-left: 8px solid transparent;
+}
+
+/*QATAR ESCRITA */
+.main-title {
+  color: #444;
+  margin: 0 0 75px 0;
+  font-size: 40px;
+  text-align: center;
+}
+
+.main-title::after {
+  content: "";
+  border-top: 2px solid #333;
+  width: 18%;
+  position: absolute;
+  top: 60px;
+  left: 44.9%;
+}
+
+#about p,
+#about li {
+  color: #444;
+  font-size: 14px;
+  text-align: justify;
+  padding-left: 100px;
+}
+
+h3 {
+  padding-top: 10px;
+  padding-left: 100px;
+  text-align: center;
+}
+
+#alemanha1 {
+  padding-left: 100px;
+}
+
+#alemanha1 img {
+  padding-bottom: 90px;
+}
+
+#alemanha1 p,
+#alemanha1 h3 {
+  margin-left: -100px;
+}
+
+#argentina1 {
+  padding-left: 100px;
+}
+
+#argentina1 p,
+#argentina1 h3 {
+  margin-left: -100px;
+}
+
+#argentina1 img {
+  padding-bottom: 90px;
+}
+
+#franca1 {
+  padding-left: 100px;
+}
+
+#franca1 img {
+  padding-bottom: 90px;
+}
+
+#franca1 p,
+#franca1 h3 {
+  margin-left: -100px;
+}
+
+#franca2 {
+  padding-left: 100px;
+}
+
+#franca2 img {
+  padding-bottom: 90px;
+}
+
+#franca2 p,
+#franca2 h3 {
+  margin-left: -100px;
+}
+
+#espanha1 {
+  padding-left: 100px;
+}
+
+#espanha1 img {
+  padding-bottom: 90px;
+}
+
+#espanha1 p,
+#espanha1 h3 {
+  margin-left: -100px;
+}
+
+#espanha2 {
+  padding-left: 100px;
+}
+
+#espanha2 img {
+  padding-bottom: 90px;
+}
+
+#espanha2 p,
+#espanha2 h3 {
+  margin-left: -100px;
+}
+
+#espanha3 {
+  padding-left: 100px;
+}
+
+#espanha3 img {
+  padding-bottom: 90px;
+}
+
+#espanha3 p,
+#espanha3 h3 {
+  margin-left: -100px;
+}
+
+#espanha4 {
+  padding-left: 100px;
+}
+
+#espanha4 img {
+  padding-bottom: 90px;
+}
+
+#espanha4 p,
+#espanha4 h3 {
+  margin-left: -100px;
+}
+
+#brasil1 {
+  padding-left: 100px;
+}
+
+#brasil1 img {
+  padding-bottom: 90px;
+}
+
+#brasil1 p,
+#brasil1 h3 {
+  margin-left: -100px;
+}
+
+#brasil2 {
+  padding-left: 100px;
+}
+
+#brasil2 img {
+  padding-bottom: 90px;
+}
+
+#brasil2 p,
+#brasil2 h3 {
+  margin-left: -100px;
+}
+
+#brasil3 {
+  padding-left: 100px;
+}
+
+#brasil3 img {
+  padding-bottom: 90px;
+}
+
+#brasil3 p,
+#brasil3 h3 {
+  margin-left: -100px;
+}
+
+#brasil4 {
+  padding-left: 100px;
+}
+
+#brasil4 img {
+  padding-bottom: 90px;
+}
+
+#brasil4 p,
+#brasil4 h3 {
+  margin-left: -100px;
+}
+
+#brasil5 {
+  padding-left: 100px;
+}
+
+#brasil5 img {
+  padding-bottom: 90px;
+}
+
+#brasil5 p,
+#brasil5 h3 {
+  margin-left: -100px;
+}
+/* COPYRIGHT */
+
+#copy-area {
+  background-color: #fff;
+}
+
+#copy-area .container {
+  padding: 1px 0;
+  text-align: center;
+  padding-left: 360px;
+}
+
+#copy-area .container p {
+  margin-bottom: 0;
+}
+
+#copy-area .container a {
+  font-weight: bold;
+  color: #444;
+}
+
+#copy-area .container a:hover {
+  text-decoration: none;
+  color: #ffd100;
+}
