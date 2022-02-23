@@ -10,7 +10,7 @@
   flex-wrap: wrap;
   max-width: 1280px;
   margin: 0 auto;
-  height: 100px; /* é aqui que muda */
+  height: 4250px; /* é aqui que muda */
 }
 
 div.center {
@@ -114,6 +114,10 @@ h3 {
   padding-left: 100px;
 }
 
+#estadio1 img {
+  padding-bottom: 90px;
+}
+
 #estadio1 p,
 #estadio1 h3 {
   margin-left: -100px;
@@ -128,12 +132,19 @@ h3 {
   margin-left: -100px;
 }
 
+#estadio2 img {
+  padding-bottom: 90px;
+}
+
 #estadio3 {
   padding-left: 100px;
 }
 #estadio3 p,
 #estadio3 h3 {
   margin-left: -100px;
+}
+#estadio3 img {
+  padding-bottom: 90px;
 }
 
 #estadio4 {
@@ -142,6 +153,9 @@ h3 {
 #estadio4 p,
 #estadio4 h3 {
   margin-left: -100px;
+}
+#estadio4 img {
+  padding-bottom: 90px;
 }
 
 #estadio5 {
@@ -152,6 +166,9 @@ h3 {
 #estadio5 h3 {
   margin-left: -100px;
 }
+#estadio5 img {
+  padding-bottom: 90px;
+}
 
 #estadio6 {
   padding-left: 100px;
@@ -161,6 +178,9 @@ h3 {
 #estadio6 h3 {
   margin-left: -100px;
 }
+#estadio6 img {
+  padding-bottom: 90px;
+}
 
 #estadio7 {
   padding-left: 100px;
@@ -168,6 +188,9 @@ h3 {
 #estadio7 p,
 #estadio7 h3 {
   margin-left: -100px;
+}
+#estadio7 img {
+  padding-bottom: 90px;
 }
 
 #estadio8 {
@@ -177,6 +200,10 @@ h3 {
 #estadio8 p,
 #estadio8 h3 {
   margin-left: -90px;
+}
+
+#estadio8 img {
+  padding-bottom: 90px;
 }
 
 /* COPYRIGHT */
@@ -203,12 +230,4 @@ h3 {
 #copy-area .container a:hover {
   text-decoration: none;
   color: #ffd100;
-}
-
-.row {
-  margin: 0;
-}
-
-.container {
-  padding: 65px 0;
 }
