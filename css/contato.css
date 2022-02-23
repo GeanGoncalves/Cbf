@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 230px;
+}
+
+div.center {
+  padding: 15vh 2% 0 2%;
+}
+
+/*Navbar*/
+header {
+  height: 200px;
+  padding: 20px 0;
+}
+
+.logo {
+  width: 50%;
+}
+
+.menu {
+  padding-top: 30px;
+  padding-left: 250px;
+  width: 50%;
+  text-align: center;
+  display: flex;
+  gap: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu li {
+  width: 150px;
+  height: 20px;
+  list-style: none;
+}
+
+.menu a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 15px;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  display: flex;
+}
+
+.menu li:hover > a {
+  color: #ffd100;
+}
+
+.menu li:hover > .submenu {
+  display: block;
+}
+
+.submenu {
+  margin-top: 1px;
+  display: none;
+}
+
+.submenu a {
+  width: 150%;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 16px;
+  border-left: 8px solid transparent;
+}
+
+/*body {
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}*/
+
+.container .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .content .dados {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+}
+.content .dados::before {
+  content: "";
+  position: absolute;
+  height: 70%;
+  width: 2px;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #ffd100;
+}
+
+/*ícones*/
+.content .dados .details {
+  margin: 14px;
+  text-align: center;
+}
+.content .dados .details i {
+  font-size: 30px;
+  color: #000;
+  margin-bottom: 10px;
+}
+.content .dados .details .topico {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/*letras*/
+.content .dados .details .text-one,
+.content .dados .details .text-two {
+  font-size: 14px;
+  color: #afafb6;
+}
+
+.container .content .caixa {
+  width: 75%;
+  margin-left: 75px;
+}
+.content .caixa .topic-text {
+  font-size: 23px;
+  font-weight: 600;
+  color: #000;
+}
+.caixa .input-box {
+  height: 50px;
+  width: 100%;
+  margin: 12px 0;
+}
+.caixa .input-box input,
+.caixa .input-box textarea {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #f0f1f8;
+  border-radius: 6px;
+  padding: 0 15px;
+  resize: none;
+}
+.caixa .message-box {
+  min-height: 110px;
+}
+.caixa .input-box textarea {
+  padding-top: 6px;
+}
+.caixa .button {
+  display: inline-block;
+  margin-top: 12px;
+}
+.caixa .button input[type="button"] {
+  color: #000;
+  font-size: 19px;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 12px;
+  background: #ffd100;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 3px solid transparent;
+}
+.button input[type="button"]:hover {
+  text-decoration: none;
+  color: #ffd100;
+  background-color: transparent;
+  border-color: #ffd100;
+}
+
+/* Responsivo*/
+@media (max-width: 950px) {
+  .container {
+    width: 90%;
+    padding: 30px 40px 40px 35px;
+  }
+  .container .content .caixa {
+    width: 75%;
+    margin-left: 55px;
+  }
+}
+@media (max-width: 820px) {
+  .container {
+    margin: 40px 0;
+    height: 100%;
+  }
+  .container .content {
+    flex-direction: column-reverse;
+  }
+  .container .content .dados {
+    width: 100%;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .container .content .dados::before {
+    display: none;
+  }
+  .container .content .caixa {
+    width: 100%;
+    margin-left: 0;
+  }
+}
