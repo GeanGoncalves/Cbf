@@ -96,6 +96,25 @@ header {
   left: 44.9%;
 }
 
+nav ul {
+  padding-bottom: -20000px;
+  padding-left: 245px;
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+
+nav ul a {
+  font-size: 18px;
+  color: #000;
+  text-decoration: none;
+}
+
+nav ul a:hover {
+  color: #ffd100;
+  cursor: pointer;
+}
+
 #about p,
 #about li {
   color: #444;
