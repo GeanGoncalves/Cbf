@@ -81,21 +81,22 @@
                     <div class="topic-text">Envie sua mensagem</div>
 
                     <!-- Forms -->
-                    <form action="#">
-                        <div class="input-box">
-                            <input type="text" placeholder="Digite seu nome" />
-                        </div>
-                        <div class="input-box">
-                            <input type="text" placeholder="Digite seu email" />
-                        </div>
-                        <div class="input-box message-box">
-                            <textarea placeholder="Digite sua mensagem"></textarea>
-                        </div>
-                        <div class="button">
-                            <input type="button" value="Enviar" />
-                        </div>
-                    </form>
-
+                    <div id="contact-form">
+                        <form action="#">
+                            <div class="input-box">
+                                <input type="email" class="form-control" placeholder="Digite seu email" name="email" />
+                            </div>
+                            <div class="input-box">
+                                <input class="form-control" placeholder="Digite o assunto" name="subject" />
+                            </div>
+                            <div class="input-box message-box">
+                                <textarea class="form-control" placeholder="Digite sua mensagem" name="message"></textarea>
+                            </div>
+                            <div class="button">
+                                <input type="button" value="Enviar" />
+                            </div>
+                        </form>
+                    </div>
 
                 </div>
             </div>
