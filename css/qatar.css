@@ -10,7 +10,7 @@
   flex-wrap: wrap;
   max-width: 1280px;
   margin: 0 auto;
-  height: 4250px; /* é aqui que muda */
+  height: 4300px; /* é aqui que muda */
 }
 
 div.center {
@@ -111,7 +111,7 @@ nav ul a {
 }
 
 nav ul a:hover {
-  color: #ffd100;
+  color: #ffd100 !important;
   cursor: pointer;
 }
 
