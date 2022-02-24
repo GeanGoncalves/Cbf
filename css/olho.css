@@ -10,7 +10,7 @@
   flex-wrap: wrap;
   max-width: 1280px;
   margin: 0 auto;
-  height: 6550px; /* é aqui que muda */
+  height: 6590px; /* é aqui que muda */
 }
 
 div.center {
@@ -94,6 +94,25 @@ header {
   position: absolute;
   top: 60px;
   left: 44.9%;
+}
+
+nav ul {
+  padding-bottom: -20000px;
+  padding-left: 80px;
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+
+nav ul a {
+  font-size: 18px;
+  color: #000;
+  text-decoration: none;
+}
+
+nav ul a:hover {
+  color: #ffd100;
+  cursor: pointer;
 }
 
 #about p,

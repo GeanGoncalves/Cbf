@@ -18,7 +18,7 @@ $(document).ready(function() {
   
      console.log(btnId);
   
-     if(btnId == '1958'){
+          if(btnId == '1958'){
        scrollTo = copa1958;
      } else if(btnId == '1962'){
        scrollTo = copa1962;
@@ -36,5 +36,5 @@ $(document).ready(function() {
     }, 1500);
   
   });
-  
+
   });
