@@ -15,7 +15,7 @@ body {
   flex-wrap: wrap;
   max-width: 1280px;
   margin: 0 auto;
-  height: 230px;
+  height: 200px; /* É AQUI QUE MEXE*/
 }
 
 div.center {
@@ -189,6 +189,31 @@ header {
   color: #ffd100;
   background-color: transparent;
   border-color: #ffd100;
+}
+
+#copy-area {
+  padding-top: 20px;
+  background-color: #fff;
+}
+
+#copy-area .container {
+  padding: 1px 0;
+  text-align: center;
+  padding-left: 10px;
+}
+
+#copy-area .container p {
+  margin-bottom: 0;
+}
+
+#copy-area .container a {
+  font-weight: bold;
+  color: #444;
+}
+
+#copy-area .container a:hover {
+  text-decoration: none;
+  color: #ffd100;
 }
 
 /* Responsivo*/
