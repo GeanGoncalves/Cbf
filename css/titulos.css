@@ -294,3 +294,56 @@ h3 {
     transform: translateY(-10px);
   }
 }
+
+/*responsive TABLET*/
+@media (max-width: 768px) {
+  /*geral*/
+  .container {
+    padding: 20px 0;
+  }
+
+  .menu {
+    margin-top: -80px;
+    margin-left: 280px;
+    margin-bottom: 50px;
+  }
+
+  #introducao p {
+    margin-left: 10px;
+    margin-right: 100px;
+  }
+
+  #about li {
+    margin-left: -50px;
+    margin-right: -22px;
+  }
+
+  #copa1 p {
+    color: #444;
+    font-size: 14px;
+    text-align: justify;
+    margin-left: -95px;
+    margin-right: 99px;
+  }
+
+  #copa1 img {
+    padding-top: -100px;
+    margin-left: 120px;
+  }
+  #copa2 img {
+    padding-top: -100px;
+    margin-left: 120px;
+  }
+  #copa3 img {
+    padding-top: -100px;
+    margin-left: 120px;
+  }
+  #copa4 img {
+    padding-top: -100px;
+    margin-left: 120px;
+  }
+  #copa5 img {
+    padding-top: -100px;
+    margin-left: 120px;
+  }
+}
