@@ -282,3 +282,15 @@ h3 {
   text-decoration: none;
   color: #ffd100;
 }
+
+#copy-area .seta {
+  transform: translateY(-25px);
+  width: 65px;
+  animation: bounce 0.3s alternate ease-in-out infinite;
+}
+
+@keyframes bounce {
+  to {
+    transform: translateY(-10px);
+  }
+}
