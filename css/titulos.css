@@ -301,11 +301,13 @@ h3 {
   .container {
     padding: 20px 0;
   }
-
+  .logo {
+    margin-left: 20px;
+  }
   .menu {
     margin-top: -80px;
-    margin-left: 280px;
-    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-bottom: 150px;
   }
 
   #introducao p {
@@ -351,7 +353,4 @@ h3 {
 /* RESPONSIVO MOBILE*/
 
 @media (max-width: 425px) {
-  .container {
-    padding: 1px 0;
-  }
 }

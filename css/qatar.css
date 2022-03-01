@@ -269,13 +269,16 @@ h3 {
     padding: 24px 0;
   }
 
+  .logo {
+    margin-left: 20px;
+  }
   .main-title {
     margin-left: -50px;
   }
   .menu {
-    margin-top: -155px;
+    margin-top: -90px;
     margin-left: 220px;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
   }
 
   #about li {
@@ -283,17 +286,24 @@ h3 {
     margin-right: -20px;
   }
 
-  #historia p,
-  h3 {
+  #historia h3 {
+    margin-right: -50px;
+  }
+
+  #historia p {
     margin-right: 50px;
   }
-  #copa p,
-  h3 {
+  #copa h3 {
+    margin-right: -30px;
+  }
+  #copa p {
     margin-right: 50px;
   }
 
-  #estadios p,
-  h3 {
+  #estadios h3 {
+    margin-right: -30px;
+  }
+  #estadios p {
     margin-right: 50px;
   }
 

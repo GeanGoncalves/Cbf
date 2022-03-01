@@ -334,3 +334,18 @@ h3 {
     transform: translateY(-10px);
   }
 }
+
+@media (max-width: 768px) {
+  /*geral*/
+  .container {
+    padding: 24px 0;
+  }
+  .menu {
+    margin-top: -200px;
+    margin-left: 220px;
+    margin-bottom: 0px;
+  }
+  .main-title {
+    margin-left: -50px;
+  }
+}

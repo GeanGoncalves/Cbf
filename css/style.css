@@ -134,3 +134,29 @@ section.sobre {
   background-color: transparent;
   border-color: #ffd100;
 }
+
+@media (max-width: 768px) {
+  /*geral*/
+  .container {
+    padding: 24px 0;
+  }
+
+  .logo {
+    margin-left: 20px;
+  }
+
+  .menu {
+    margin-top: -90px;
+    margin-left: 220px;
+    margin-bottom: 550px;
+  }
+  .texto-sobre {
+    width: 46%;
+    margin-top: -130px;
+    margin-left: 15px;
+  }
+  .sobre {
+    width: 110%;
+    margin-top: 120px;
+  }
+}
