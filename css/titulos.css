@@ -347,3 +347,11 @@ h3 {
     margin-left: 120px;
   }
 }
+
+/* RESPONSIVO MOBILE*/
+
+@media (max-width: 425px) {
+  .container {
+    padding: 1px 0;
+  }
+}

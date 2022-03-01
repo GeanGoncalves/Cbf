@@ -262,3 +262,131 @@ h3 {
     transform: translateY(-10px);
   }
 }
+
+@media (max-width: 768px) {
+  /*geral*/
+  .container {
+    padding: 24px 0;
+  }
+
+  .main-title {
+    margin-left: -50px;
+  }
+  .menu {
+    margin-top: -155px;
+    margin-left: 220px;
+    margin-bottom: 50px;
+  }
+
+  #about li {
+    margin-left: -98px;
+    margin-right: -20px;
+  }
+
+  #historia p,
+  h3 {
+    margin-right: 50px;
+  }
+  #copa p,
+  h3 {
+    margin-right: 50px;
+  }
+
+  #estadios p,
+  h3 {
+    margin-right: 50px;
+  }
+
+  /*ESTADIO 1*/
+  #estadio1 p,
+  h3 {
+    margin-right: 65px;
+  }
+
+  #estadio1 img {
+    margin-left: 15px;
+    margin-bottom: -350px;
+  }
+
+  /*ESTADIO 2*/
+  #estadio2 p,
+  h3 {
+    margin-left: -85px;
+    margin-right: 45px;
+  }
+
+  #estadio2 img {
+    margin-bottom: -430px;
+    margin-left: -65px;
+  }
+
+  /*ESTADIO 3*/
+  #estadio3 p,
+  h3 {
+    margin-right: 65px;
+  }
+
+  #estadio3 img {
+    margin-left: 15px;
+    margin-bottom: -350px;
+  }
+  /* ESTADIO 4*/
+  #estadio4 p,
+  h3 {
+    margin-left: -85px;
+    margin-right: 45px;
+  }
+
+  #estadio4 img {
+    margin-bottom: -350px;
+    margin-left: -65px;
+  }
+
+  /*ESTADIO 5*/
+  #estadio5 p,
+  h3 {
+    margin-right: 65px;
+  }
+
+  #estadio5 img {
+    margin-left: 15px;
+    margin-bottom: -350px;
+  }
+
+  /*ESTADIO 6*/
+  #estadio6 p,
+  h3 {
+    margin-left: -85px;
+    margin-right: 45px;
+  }
+
+  #estadio6 img {
+    margin-bottom: -430px;
+    margin-left: -65px;
+  }
+  /*ESTADIO 7*/
+  #estadio7 p,
+  h3 {
+    margin-right: 65px;
+  }
+
+  #estadio7 img {
+    margin-left: 15px;
+    margin-bottom: -350px;
+  }
+  /*ESTADIO 8*/
+  #estadio8 p,
+  h3 {
+    margin-left: -85px;
+    margin-right: 45px;
+  }
+
+  #estadio8 img {
+    margin-bottom: -430px;
+    margin-left: -65px;
+  }
+
+  #copy-area {
+    margin-left: -190px;
+  }
+}
