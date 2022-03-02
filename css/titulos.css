@@ -296,7 +296,7 @@ h3 {
 }
 
 /*responsive TABLET*/
-@media (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 959px) {
   /*geral*/
   .container {
     padding: 20px 0;
@@ -352,5 +352,61 @@ h3 {
 
 /* RESPONSIVO MOBILE*/
 
-@media (max-width: 425px) {
+@media only screen and (max-width: 767px) {
+  /*.container {
+    width: 300px;
+  }*/
+
+  .logo {
+    margin-left: 20px;
+  }
+
+  .menu {
+    margin-top: -80px;
+    margin-left: 120px;
+    margin-bottom: 150px;
+  }
+
+  .main-title::after {
+    content: "";
+    border-top: 2px solid #333;
+    width: 36%;
+    position: absolute;
+    top: 100px;
+    left: 31.9%;
+  }
+  #about li {
+    margin-left: -110px;
+    margin-right: 12px;
+  }
+
+  #introducao p {
+    margin-left: -42px;
+    margin-right: 55px;
+  }
+
+  #copa1 img {
+    margin-left: 80px;
+    width: max-content;
+  }
+
+  #copa2 img {
+    margin-left: 80px;
+    width: max-content;
+  }
+
+  #copa3 img {
+    margin-left: 80px;
+    width: max-content;
+  }
+
+  #copa4 img {
+    margin-left: 80px;
+    width: max-content;
+  }
+
+  #copa5 img {
+    margin-left: 80px;
+    width: max-content;
+  }
 }
