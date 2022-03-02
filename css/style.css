@@ -160,3 +160,24 @@ section.sobre {
     margin-top: 120px;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .logo {
+    margin-left: 20px;
+  }
+
+  .menu {
+    margin-top: -80px;
+    margin-left: 120px;
+    margin-bottom: 150px;
+  }
+  .texto-sobre {
+    width: 46%;
+    margin-top: -130px;
+    margin-left: 15px;
+  }
+  .sobre {
+    width: 110%;
+    margin-top: 120px;
+  
+}

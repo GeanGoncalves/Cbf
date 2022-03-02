@@ -244,6 +244,16 @@ header {
     margin: 40px 0;
     height: 100%;
   }
+
+  .logo {
+    margin-left: 20px;
+  }
+
+  .menu {
+    margin-top: -80px;
+    margin-left: 120px;
+    margin-bottom: 150px;
+  }
   .container .content {
     flex-direction: column-reverse;
   }
