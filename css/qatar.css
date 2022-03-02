@@ -400,3 +400,81 @@ h3 {
     margin-left: -190px;
   }
 }
+@media only screen and (max-width: 767px) {
+  .logo {
+    margin-left: 20px;
+  }
+
+  .menu {
+    margin-top: -80px;
+    margin-left: 120px;
+    margin-bottom: 150px;
+  }
+
+  .main-title::after {
+    content: "";
+    border-top: 2px solid #333;
+    width: 40%;
+    position: absolute;
+    top: 60px;
+    left: 37.9%;
+  }
+  #about li {
+    margin-left: -220px;
+    margin-right: 177px;
+  }
+
+  /*ESTADIO 1*/
+  #estadio1 img {
+    margin-top: 110px;
+  }
+  #estadio1 h3 {
+    margin-top: -90px;
+  }
+
+  #estadio1 p {
+    margin-bottom: 110px;
+  }
+
+  /*ESTADIO2*/
+  #estadio2 img {
+    margin-bottom: 110px;
+  }
+
+  /*ESTADIO 3*/
+
+  #estadio3 h3 {
+    margin-top: -90px;
+  }
+
+  #estadio3 p {
+    margin-bottom: 110px;
+  }
+
+  /*ESTADIO5*/
+  #estadio5 img {
+    margin-top: 110px;
+  }
+  #estadio5 h3 {
+    margin-top: -90px;
+  }
+  #estadio5 p {
+    margin-bottom: 110px;
+  }
+
+  /*ESTADIO 7*/
+  #estadio7 img {
+    margin-top: 110px;
+  }
+  #estadio7 h3 {
+    margin-top: -90px;
+  }
+
+  #estadio7 p {
+    margin-bottom: 110px;
+  }
+
+  #copy-area {
+    margin-left: -170px;
+  }
+}
