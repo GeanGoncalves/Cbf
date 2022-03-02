@@ -645,3 +645,151 @@ h3 {
     margin-left: -140px;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .logo {
+    margin-left: 20px;
+  }
+
+  .menu {
+    margin-top: -80px;
+    margin-left: 120px;
+    margin-bottom: 150px;
+  }
+
+  .main-title::after {
+    content: "";
+    border-top: 2px solid #333;
+    width: 40%;
+    position: absolute;
+    top: 60px;
+    left: 37.9%;
+  }
+  #about li {
+    margin-left: -42px;
+    margin-right: -87px;
+  }
+
+  /*ALEMANHA 1*/
+  #alemanha1 .col-md-6 img {
+    margin-top: 40px;
+  }
+
+  #alemanha1 .col-md-6 h3 {
+    margin-top: -100px;
+  }
+  #alemanha1 .col-md-6 p {
+    margin-bottom: 170px;
+  }
+
+  /*ARGENTINA1*/
+  #argentina1 .col-md-6 h3 {
+    margin-top: 40px;
+  }
+
+  #argentina1 .col-md-6 img {
+    margin-bottom: 90px;
+  }
+  /*FRANÇA 1*/
+  #franca1 .col-md-6 img {
+    margin-top: 40px;
+  }
+
+  #franca1 .col-md-6 h3 {
+    margin-top: -100px;
+  }
+  #franca1 .col-md-6 p {
+    margin-bottom: 90px;
+  }
+
+  /*FRANÇA2*/
+  #franca2 .col-md-6 h3 {
+    margin-top: 40px;
+  }
+
+  #franca2 .col-md-6 img {
+    margin-bottom: 90px;
+  }
+
+  /*ESPANHA1*/
+  #espanha1 .col-md-6 img {
+    margin-top: 40px;
+  }
+
+  #espanha1 .col-md-6 h3 {
+    margin-top: -100px;
+  }
+  #espanha1 .col-md-6 p {
+    margin-bottom: 90px;
+  }
+
+  /*ESPANHA2*/
+  #espanha2 .col-md-6 h3 {
+    margin-top: 40px;
+  }
+
+  #espanha2 .col-md-6 img {
+    margin-bottom: 90px;
+  }
+
+  /*ESPANHA3*/
+  #espanha3 .col-md-6 img {
+    margin-top: 40px;
+  }
+
+  #espanha3 .col-md-6 h3 {
+    margin-top: -100px;
+  }
+  /* ESPANHA 4*/
+  #espanha4 .col-md-6 h3 {
+    margin-top: 90px;
+  }
+
+  #espanha4 .col-md-6 img {
+    margin-bottom: 90px;
+  }
+
+  /*BRASIL1*/
+  #brasil1 .col-md-6 img {
+    margin-top: 40px;
+  }
+
+  #brasil1 .col-md-6 h3 {
+    margin-top: -100px;
+  }
+  #brasil1 .col-md-6 p {
+    margin-bottom: 100px;
+  }
+
+  /*BRASIL2*/
+  #brasil2 .col-md-6 img {
+    margin-bottom: 100px;
+  }
+
+  /*BRASIL3*/
+  #brasil3 .col-md-6 img {
+    margin-top: 40px;
+  }
+
+  #brasil3 .col-md-6 h3 {
+    margin-top: -100px;
+  }
+  #brasil3 .col-md-6 p {
+    margin-bottom: 100px;
+  }
+
+  /*BRASIL5*/
+  #brasil5 .col-md-6 img {
+    margin-top: 90px;
+  }
+
+  #brasil5 .col-md-6 h3 {
+    margin-top: -100px;
+  }
+  #brasil5 .col-md-6 p {
+    margin-bottom: 100px;
+  }
+  #copy-area {
+    margin-left: -170px;
+  }
+}
