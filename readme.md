@@ -1,12 +1,28 @@
-<h1>Capacitação de Front-End</h1>
+# Projeto Web - Confederação Brasileira de Futebol (CBF)
 
-> <p style='text-align: justify;'> Meu nome é Gean, pra quem não me conhece, eu gosto muito de futebol, e como estamos em ano de copa do mundo, então o tema do meu projeto final da capacitação de front-end da byron, não podia ser diferente de copa do mundo. Conversando com pessoas mais velhas, elas falam que antigamente, existia toda aquela ansiedade pre-jogo ja na semana do jogo, e no dia de jogo da seleção, o país parava tudo que tinha que fazer, para reunir os familiares e amigos, e fazer aquele churrasco. Mas hoje em dia, essa essência se perdeu, seja pq a camisa da seleção virou algo relacionado a política ou porque não gostam do Neymar, e só vão torcer pra seleção depois que o Neymar parar de ser convocado. Com isso a ideia do meu projeto é tentar recuperar essa essência através de um site. </p>
+Este projeto foi desenvolvido como parte da capacitação obtida após a conclusão do curso de **Fundamentos Básicos de Front-End**, utilizando as tecnologias **HTML**, **CSS** e **JavaScript** para criar um site informativo sobre a **Confederação Brasileira de Futebol (CBF)**.
 
-### 🖥️Tecnologias utilizadas:
+## 📚 Objetivo do Projeto
 
-- HTML
-- CSS
-- JavaScript
-- Bootstrap
-- Git
-- GitHub
+O objetivo deste projeto é fornecer uma plataforma web simples e responsiva que apresenta informações relevantes sobre a CBF, suas competições, história e principais conquistas.
+
+## 🚀 Funcionalidades
+
+- **Página principal**: Apresentação geral da CBF, incluindo histórico e notícias recentes.
+- **Competições**: Detalhamento das principais competições organizadas pela CBF, como o Campeonato Brasileiro e a Copa do Brasil.
+- **Seleções**: Informações sobre as seleções brasileiras de futebol, incluindo elenco e calendário de jogos.
+- **Contato**: Formulário para contato com a CBF.
+
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML5**: Estruturação das páginas.
+- **CSS3**: Estilização e layout responsivo com Flexbox e Grid.
+- **JavaScript (ES6+)**: Interatividade e manipulação do DOM.
+
+## 📈 Aprendizados
+
+Durante o desenvolvimento deste projeto, foram aplicados conceitos de **design responsivo**, **organização de conteúdo web**, e **interatividade** com **JavaScript**. O projeto também seguiu boas práticas de desenvolvimento front-end.
+
+## 🤝 Contribuições
+
+Sugestões e melhorias são sempre bem-vindas! Sinta-se à vontade para abrir uma issue ou fazer um pull request.
